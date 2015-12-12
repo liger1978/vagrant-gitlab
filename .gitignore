@@ -1,0 +1,5 @@
+.vagrant*
+puppet/environments/vagrant/modules/*
+!puppet/environments/vagrant/modules/profile
+!puppet/environments/vagrant/modules/role
+!puppet/environments/vagrant/modules/my_fw
