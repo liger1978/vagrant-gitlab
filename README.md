@@ -15,7 +15,7 @@ commands:
 # Install recommended plugins (if you want them):
 #   vagrant-cachier will cache the Linux packages locally for later use
 vagrant plugin install vagrant-cachier
-#   vagrant-hostmanager will allow you to resolve the VM hostname ("pulp.box")
+#   vagrant-hostmanager will allow you to resolve the VM hostname ("gitlab.box")
 #   from your computer
 vagrant plugin install vagrant-hostmanager
  
@@ -23,7 +23,7 @@ vagrant plugin install vagrant-hostmanager
 git clone https://github.com/liger1978/vagrant-gitlab.git
 
 # Start and provision the Vagrant environment:
-cd vagrant-pulp
+cd vagrant-gitlab
 vagrant up
 ````
 
